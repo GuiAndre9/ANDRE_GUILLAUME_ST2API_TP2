@@ -3,8 +3,8 @@ public class City
     {
         public string name { get; set; }
 
-        public City(string _name)
+        public City(string nom)
         {
-            _name = name;
+            nom = name;
         }
     }

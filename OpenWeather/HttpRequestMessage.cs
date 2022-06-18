@@ -44,10 +44,22 @@ namespace ClassLibrary1
         {
             public coord coord { get; set; }
             public List <weather> weather { get; set; }
-            public main main { get; set; }
-            
             public wind wind { get; set; }
             public sys sys { get; set; }
+            public string @base { get; set; }
+            public Main main { get; set; }
+            public int visibility { get; set; }
+            public int dt { get; set; }
+            public int timezone { get; set; }
+            public int id { get; set; }
+            public string name { get; set; }
+            public int cod { get; set; }
         }
+    }
+
+    internal class coord
+    {
+        public double lon { get; set; }
+        public double lat { get; set; }
     }
 }
