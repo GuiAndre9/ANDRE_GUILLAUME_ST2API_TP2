@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
+  
     internal class HttpRequestMessage
     {
         public class coord

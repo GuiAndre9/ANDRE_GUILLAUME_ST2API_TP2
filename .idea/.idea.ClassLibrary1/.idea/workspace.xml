@@ -4,7 +4,13 @@
     <projectFile>ConsoleApp1/ConsoleApp1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="" />
+    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OpenWeather/Main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/Root.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AZLvZrWcrhU6AdV3ZhHouU0x5U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,14 +74,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655212391181</updated>
-      <workItem from="1655212401479" duration="14854000" />
+      <workItem from="1655212401479" duration="15876000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

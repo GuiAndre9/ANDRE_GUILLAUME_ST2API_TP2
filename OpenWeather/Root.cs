@@ -1,5 +1,5 @@
 
-namespace ClassLibrary1
+namespace ClassLibrary1;
 public class Root
 {
     public Coord coord { get; set; }
@@ -15,5 +15,4 @@ public class Root
     public int id { get; set; }
     public string name { get; set; }
     public int cod { get; set; }
-}
 }
