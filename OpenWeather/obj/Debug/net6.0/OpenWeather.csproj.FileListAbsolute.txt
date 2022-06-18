@@ -1,0 +1,5 @@
+/Users/guillaumeandre/RiderProjects/ClassLibrary1/OpenWeather/obj/Debug/net6.0/OpenWeather.csproj.AssemblyReference.cache
+/Users/guillaumeandre/RiderProjects/ClassLibrary1/OpenWeather/obj/Debug/net6.0/OpenWeather.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guillaumeandre/RiderProjects/ClassLibrary1/OpenWeather/obj/Debug/net6.0/OpenWeather.AssemblyInfoInputs.cache
+/Users/guillaumeandre/RiderProjects/ClassLibrary1/OpenWeather/obj/Debug/net6.0/OpenWeather.AssemblyInfo.cs
+/Users/guillaumeandre/RiderProjects/ClassLibrary1/OpenWeather/obj/Debug/net6.0/OpenWeather.csproj.CoreCompileInputs.cache
