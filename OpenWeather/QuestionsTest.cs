@@ -1,50 +1,53 @@
-namespace ClassLibrary1;
+using static System.ComponentModel.DateTimeConverter;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using ConsoleApp6.API;
+using Newtonsoft.Json;
+
+
+namespace ClassLibrary1
 
 public class QuestionsTest
 {
 using ClassLibrary1;
+    
+    
+//Question 1
+    Console.WriteLine("What's the weather like in Morocco ? \n");
+    Coordonates Morocco = new Coordonates(39.099724f, -94.578331f);
 
-//1
-Root requete11 = await Service.Requete("q=Kingdom of Morocco");
-Console.WriteLine("Weather like in Kingdom of Morocco is "+requete11.weather[0].description);
+    Root weatherMorocco = tp2.GetWeather(Morocco);
 
-Root requete12 = await Service.Requete("q=Morocco");
-Console.WriteLine("Weather like in Morocco is "+requete12.weather[0].description);
+    //double temperature = weatherMorocco.data[0].temp;
+    //string description = weatherMorocco.data[0].weather[0].description;
+    Console.WriteLine(weatherMorocco.data[0]);
 
-//2
-Root requete2 = await Service.Requete("q=Oslo");
-DateTime dateTimeRise = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
-dateTimeRise = dateTimeRise.AddSeconds(requete2.sys.sunrise).ToLocalTime();
-DateTime dateTimeSet = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
-dateTimeSet = dateTimeSet.AddSeconds(requete2.sys.sunset).ToLocalTime();
-Console.WriteLine("Oslo sunrise "+ dateTimeRise + " / "+ "Oslo sun set "+ dateTimeSet );
+    //Question 2
+    Console.WriteLine("When will the sun rise and set today in Oslo?");
+    Coordonates Oslo = new Coordonates(4, 4);
+    Root sunRiseOslo = tp2.GetWeather(Oslo);
+    Console.WriteLine();
 
-//3
-Root requete3 = await Service.Requete("q=Jakarta");
-Console.WriteLine("Jakarta temperature is "+requete3.main.temp+ "°c");
+    //Question 3
+    Console.WriteLine("What’s the temperature in Jakarta?");
+    Coordonates Jakarta = new Coordonates(4, 4);
+    Root temperatureJakarta = tp2.GetWeather(Jakarta);
+    Console.WriteLine();
 
-//4
-string[] country = {"New York City,us", "Tokyo,JP","Paris,FR"};
-var a = 0.0;
-var index = 0;
-var b = 0;
-foreach (string i in country) 
-{
-    Root requete4 = await Service.Requete("q="+i);
-    if (a < requete4.wind.speed)
-    {
-        a = requete4.wind.speed;
-        b = index;
-    }
-    index++;
-}
-Console.WriteLine("the place where there is the most wind "+country[b]+ " wind speed is "+ a);
+    //Question 4
+    Console.WriteLine("Where is it more windy, New-York, Tokyo or Paris?");
+    Coordonates NY = new Coordonates(4, 4);
+    Coordonates Tokyo = new Coordonates(4, 4);
+    Coordonates Paris = new Coordonates(4, 4);
+    Root windParis = tp2.GetWeather(Paris);
+    Console.WriteLine();
 
-//5
-string[] country2 = {"Kyiv,UA","Moscow,RU","Berlin,DE"};
-foreach (string i in country2) 
-{
-    Root requete5 = await Service.Requete("q="+i);
-    Console.WriteLine(i+" pressure level: "+requete5.main.pressure+" hPa humidity level: "+requete5.main.humidity+"%");
-}
+    //Question 5
+    Console.WriteLine("What is the humidity and pressure like in Kiev, Moscow and Berlin?");
+    Coordonates Kiev = new Coordonates(4, 4);
+    Coordonates Moscow = new Coordonates(4, 4);
+    Coordonates Berlin = new Coordonates(4, 4);
+    Root humidityBerlin = tp2.GetWeather(Berlin);
+    Console.WriteLine();
 }

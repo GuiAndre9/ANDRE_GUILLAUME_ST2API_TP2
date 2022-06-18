@@ -1,25 +1,28 @@
-using Newtonsoft.Json;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 
 namespace ClassLibrary1
 {
-    public class Service
+    public class Api
     {
-        public static async Task<Root> Request(string constrequest)
+        private async Task<string> Request(City city)
         {
-            var api = "5369a438fbd27caaeee463405bea57bb";
             var client = new HttpClient();
-            var request = new HttpRequestMessage
+
+            var request = new System.Net.Http.HttpRequestMessage
             {
                 Method = HttpMethod.Get,
                 RequestUri =
-                    new Uri(String.Format("https://api.openweathermap.org/data/2.5/weather?{0}&units=metric&appid={1}",constrequest,api))
+                    new Uri("https://api.openweathermap.org/data/2.5/weather?q={city.name}&appid=dc30fe9f8626b0e1dcdb24030931d64c")
             };
             using (var response = await client.SendAsync(request))
             {
                 response.EnsureSuccessStatusCode();
-                var e = await response.Content.ReadAsStringAsync();
-                var objDeserial = System.Net.Http.HttpRequestMessage.DeserializeObject<Root>(e);
-                return objDeserial ?? throw new InvalidOperationException();
+                var json = await response.Content.ReadAsStringAsync();
+                Root data = JsonConvert.DeserializeObject<Root>(json);
+                return data;
             }
         }
     }

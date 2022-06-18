@@ -4,12 +4,15 @@
     <projectFile>ConsoleApp1/ConsoleApp1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenWeather/Main.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" afterDir="false" />
+    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="saved">
+      <change afterPath="$PROJECT_DIR$/OpenWeather/City.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/HttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/HttpClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenWeather/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/Root.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenWeather/obj/Debug/net6.0/OpenWeather.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/obj/Debug/net6.0/OpenWeather.csproj.CoreCompileInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ConsoleApp1/ApplicationWeather.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenWeather/Exemple données.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenWeather/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -74,8 +79,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655212391181</updated>
-      <workItem from="1655212401479" duration="15876000" />
+      <workItem from="1655212401479" duration="16912000" />
     </task>
+    <task id="LOCAL-00001" summary="saved">
+      <created>1655564982215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655564982215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="saved" />
+    <option name="LAST_COMMIT_MESSAGE" value="saved" />
   </component>
 </project>

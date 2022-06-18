@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-  
     internal class HttpRequestMessage
     {
-        public class coord
+        public class city
         {
-            public double lon { get; set; }
-            public double lat { get; set; }
+            public string city{ get; set; }
         }
 
         public class weather
