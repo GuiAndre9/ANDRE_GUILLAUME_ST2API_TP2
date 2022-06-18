@@ -4,14 +4,7 @@
     <projectFile>ConsoleApp1/ConsoleApp1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenWeather/City.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/City.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenWeather/HttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/API.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/HttpRequestMessage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/QuestionsTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenWeather/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OpenWeather/Root.cs" afterDir="false" />
-    </list>
+    <list default="true" id="82ec2ab5-42a2-4539-af48-0f2e3368a1d3" name="Changes" comment="ggg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655212391181</updated>
-      <workItem from="1655212401479" duration="18165000" />
+      <workItem from="1655212401479" duration="18467000" />
     </task>
     <task id="LOCAL-00001" summary="saved">
       <created>1655564982215</created>
@@ -93,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655566155212</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bruh">
+      <created>1655567379249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655567379249</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ggg">
+      <created>1655567425536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655567425536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +123,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="saved" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="bruh" />
+    <MESSAGE value="ggg" />
+    <option name="LAST_COMMIT_MESSAGE" value="ggg" />
   </component>
 </project>
